@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Zalando - Nowa Kolekcja -60%</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+
+        header {
+            background-color: white;
+            padding: 20px 40px;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+            header img {
+                height: 30px;
+            }
+
+        .hero {
+            background: linear-gradient(to right, #ffecd2, #fcb69f);
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+            .hero h1 {
+                font-size: 48px;
+                margin-bottom: 10px;
+                color: #111;
+            }
+
+            .hero p {
+                font-size: 20px;
+                margin-bottom: 30px;
+            }
+
+            .hero a {
+                background-color: #ff7b00;
+                color: white;
+                padding: 15px 30px;
+                border-radius: 30px;
+                text-decoration: none;
+                font-size: 18px;
+                transition: background-color 0.3s ease;
+            }
+
+                .hero a:hover {
+                    background-color: #e86c00;
+                }
+
+        .gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 40px auto;
+            gap: 20px;
+            max-width: 1200px;
+        }
+
+            .gallery img {
+                max-width: 350px;
+                border-radius: 10px;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+                transition: transform 0.3s ease;
+            }
+
+                .gallery img:hover {
+                    transform: scale(1.05);
+                }
+
+        footer {
+            text-align: center;
+            font-size: 14px;
+            padding: 20px;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Zalando logo">
+    </header>
+
+    <section class="hero">
+        <h1>Nowa Kolekcja -60%</h1>
+        <p>Największa promocja sezonu tylko dziś. Stylizacje, które pokochasz!</p>
+        <a  download>Pobierz kupon rabatowy</a>
+    </section>
+
+    <section class="gallery">
+        <img src="1.jpg" alt="Promocja 1">
+        <img src="3.jpg" alt="Promocja 2">
+        <img src="2.jpg" alt="Promocja 3">
+    </section>
+
+    <footer>
+        © 2025 Zalando SE – Wszystkie prawa zastrzeżone
+    </footer>
+</body>
+</html>
